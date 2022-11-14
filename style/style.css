@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    background-image:linear-gradient(150deg ,#5d065e05,#72057a,#dc2ca7,#8a3953,#9b1d3f,#510621,#5b0606,#440502,#612004,#94230c3f,#7d3816);
+    background-size: 500%; animation: fernimado 30s infinite;
+}
+@keyframes fernimado{
+0%{background-position: 0% 50%;}
+50%{background-position: 100% 50%;}
+100%{background-position: 0% 50%;}
+
+}
+header{
+    text-align: center;
+}
+nav{
+    color: #00D717;
+    margin: 50px 50px;
+}
+
+
+
+
+.register{
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.email{
+    background-color: #86f591;
+    width: 300px ;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    margin: 50px 50px;
+
+    
+
+}
+.subscribe{
+    margin: 25px;
+    background-color: #86f591;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 150px;
+
+}
+
+
+.info-1{  
+    
+    display: flex;
+    justify-content : space-around;
+    text-align : center;
+    margin-bottom: 50px;
+
+}
+.info-2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-2{
+display: flex;
+flex-direction: row;
+text-align: center;
+margin-bottom: 50px;
+gap: 50px;
+height: 500px;
+width: auto;
+
+
+}
+.info-content{
+    margin: 0px;
+    padding: 100px 100px;
+
+}
+.container-presentation{
+
+    display: flex;
+    flex-direction: column;
+    align-content:space-around;
+    color: white;
+    align-items: center;
+    
+    margin: 50px;
+
+
+}
+
+.div-h2{
+    margin: 25px 25px;
+
+}
+p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+
+
+}
+    
+.logo{
+width: 15%;}
+.images{
+    width:100% ;
+    margin: 0px;
+    padding: 20px;
+    
+}
+    
+
+.images-position{
+align-items: center;}
+
+.top-menu{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 50px;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+justify-content: start;    
+gap: 30px;
+margin: 50px 50px;
+
+    
+}
+.btn-footer{
+    text-decoration: none;
+    background-color: none;
+}
+
